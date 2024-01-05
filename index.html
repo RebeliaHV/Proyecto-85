@@ -1,0 +1,41 @@
+<html><head>
+    <title>Pizzería</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_85.css">
+<script src="main_85.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Pizzería</a>
+        <div class="topnav-right">
+         <a href="#viewblock">Ver menú</a>
+         <a href="#addTopings">Agregar menú</a>
+        </div>
+    </div>
+
+    <div class="row" id="viewblock">
+        <div class="img_div"> 
+            <img class="img-responsive" src="pizza.png">
+        </div>
+
+        <div class="menu_div">
+            <button id="menu_list" onclick="getmenu()">Mostrar menú</button>
+            <div id="display_menu" style="font-weight: bold;" ></div>
+        </div>
+
+        <div class="menu_div" id="addTopings">
+            <input id="add_item" placeholder="RECOMIENDA UNA PIZZA"> <br><br>
+            <!--Agrega el código para el botón en la siguiente etiqueta de botón. --> 
+            <!-- Nombra el botón como: -->
+			<button class= "btn btn-success" onclick="add_suggestion()">Agrega una sugerenica de pizza</button><br><br>
+        </div>
+		<!--Da un nombre de identificación apropiado, como mostrar_menú -->
+        <div class="menu_div"><div id="        "></div>
+    </div>
+
+</body></html>
